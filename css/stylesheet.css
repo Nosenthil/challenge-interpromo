@@ -1,9 +1,19 @@
+html {
+  font-family: sans-serif;
+}
 .conteneur {
+}
+ul {
+  list-style: none;
 }
 .sectionUn {
   background-image: url(../images/payments-banner-graphic.png);
   height: 550px;
   width: 100%;
+  color : #FEFEFE;
+}
+.menu {
+  display: flex;
 }
 .bonsaiLogo {
   display: flex;
@@ -14,5 +24,116 @@
   margin: 16px 15px;
 }
 .spMenu {
-  margin-top: 100px;
+margin-top: 20px;
+}
+.boutonMenu {
+  display: flex;
+  margin-left: 1000px;
+}
+.login {
+  margin-right: 20px;
+}
+.txtPageUne {
+  text-align: center;
+  margin-top: 150px;
+}
+button {
+  background-color: #FEFEFE;
+  border-color: #FEFEFE;
+  padding: 10px;
+  border-radius: 10px;
+}
+.avantages {
+  display: flex;
+}
+.quick, .beautiful, .secure {
+  margin-top: 70px;
+  text-align: center;
+  width: 33%;
+}
+.beautiful {
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+}
+.price, .creditCards {
+  text-align: center;
+}
+.creditCards {
+  background-color: #242629;
+  height: 100px;
+  color : #FEFEFE;
+}
+.pCC {
+  padding-top: 40px;
+}
+.sectionTrois {
+  display: flex;
+  flex-wrap: wrap;
+}
+.exemple {
+  width: 50%;
+}
+.tittleEx {
+  margin-top: 25%;
+}
+.tittleEx, .pEx {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.exemple img {
+  width: 75%;
+  height: 75%;
+  margin: 12.5%;
+}
+.exUn {
+  background-color: #7CD5EF;
+}
+.exDeux {
+  background-color: #8080BE;
+}
+.exTrois {
+  background-color: #7CD5EF;
+}
+.sectionQuatre {
+  text-align: center;
+  height: 150px;
+}
+.freelance {
+  padding-top: 50px;
+}
+.boutonFin {
+  background-color: #00B188;
+  color : #FEFEFE;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #242629;
+  width: 100%;
+  color : #FEFEFE;
+}
+.products, .compagny, .contact {
+  width: 33%;
+}
+.footer h3 {
+  opacity: 0.4;
+  font-size: 14px;
+  margin-left: 39px;
+}
+.footer li {
+  font-size: 10px;
+  text-align: left;
+}
+.footer p {
+  font-size: 10px;
+}
+.note {
+  display: flex;
+  margin-left: 25%;
+  padding-bottom: 20px;
+}
+.copyright {
+  margin-left: 50px;
+  opacity: 0.4;
+  margin-right: 50px;
 }
